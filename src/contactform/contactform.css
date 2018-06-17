@@ -1,0 +1,14 @@
+input[type="text"],textarea{background:#37393b;height:50px;border:0;padding:0 10px;color: grey;
+    font-size: 19px;}
+textarea{height:200px}
+.subject,.message{width:80%;margin-top:15px; }
+.contactform_cont{width:46%}
+.name,.email{width:200px;}
+.contact_txt{font-size: 43px;margin:30px 0;color:#08fdd8;font-weight: bold}
+textarea:focus, input:focus{
+    outline: none;
+}
+.btn_small{background: none;
+    color: #08fdd8;
+    border: 1px solid #08fdd8;
+    padding: 10px 24px;}
