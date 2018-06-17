@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Login from './login/Login.js';
 import Home from './home/Home.js';
+import registerServiceWorker from './registerServiceWorker';
 
 class App extends Component {
   render() {
@@ -22,3 +23,4 @@ class App extends Component {
 }
 
 export default App;
+registerServiceWorker();
