@@ -3,7 +3,11 @@ import  styles from '../header/header.css';
 class Header extends Component {
   render() {
     return (
-     <div>Header</div>
+     <header>
+<div className="bold_txt">Varin</div>
+<div className="lightbold_txt">WEB DESIGNER AND DEVELOPER</div>
+
+     </header>
     );
   }
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Login from './login/Login.js';
@@ -9,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
+        <div>
           <Route exact={true} path='/login' render={() => (
             <Login/>
           )} />

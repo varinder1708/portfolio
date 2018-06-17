@@ -1,1 +1,6 @@
-div.App{margin-top:100px;}
+body{
+  /* background-image: url("images/grey_bg.jpg"); */
+  background-color: #111;
+  color:#fff;
+
+}
