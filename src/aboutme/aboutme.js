@@ -16,15 +16,7 @@ class Aboutme extends Component {
   // text expand animation
     $(function() {
       var text = $(em);
-      $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-
-        if (scroll >= 200) {
-          text.removeClass("hidden");
-        } else {
-          text.addClass("hidden");
-        }
-      });
+     setTimeout(()=>{    text.removeClass("hidden");},1000);
     });
   
   
