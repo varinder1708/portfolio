@@ -33,32 +33,44 @@ class Aboutme extends Component {
             <ul className="text hidden" ref="text">
               <li>I</li>
               <li className="spaced">A</li>
-              <li className="ghost">M</li>
+              <li className="ghost">m</li>
+              <li className="spaced">V</li>
+              <li className="ghost">a</li>
+              <li className="ghost">r</li>
+              <li className="ghost">i</li>
+              <li className="ghost">,</li>
+              <li className="spaced">a</li>
+              <li className="spaced">F</li>
+              <li className="ghost">r</li>
+              <li className="ghost">e</li>
+              <li className="ghost">e</li>
+              <li className="ghost">l</li>
+              <li className="ghost">a</li>
+              <li className="ghost">n</li>
+              <li className="ghost">c</li>
+              <li className="ghost">e</li>
+
               <li className="spaced">D</li>
               <li className="ghost">e</li>
-              <li className="ghost">s</li>
-              <li className="ghost">i</li>
-              <li className="ghost">g</li>
-              <li className="ghost">n</li>
-              <li className="spaced">N</li>
+              <li className="ghost">v</li>
               <li className="ghost">e</li>
-              <li className="ghost">t</li>
-              <li className="ghost">w</li>
+              <li className="ghost">l</li>
               <li className="ghost">o</li>
+              <li className="ghost">p</li>
+              <li className="ghost">e</li>
               <li className="ghost">r</li>
-              <li className="ghost">k</li>
             </ul>
-            <div>asd asd asdf asdf asdfasd asdas asd sd.</div>
-          
+            <div>What I do</div>
+          <div>CSS3, Javascript, ES6, React, HTML, Nodejs, Wordpress </div>
         </p>
         <p className="buttons_cont">
           
           <a href="/contact" class="button_link red mr10">
-            aaaaaaaaaaaaa
+         Send Message
           </a>
-          <a class="button_link grey ml10" href="#">
+          {/* <a class="button_link grey ml10" href="#">
             bbbbbbbb
-          </a>
+          </a> */}
         </p>
       </div>
     );

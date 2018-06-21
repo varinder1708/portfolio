@@ -6,33 +6,39 @@ class ContactForm extends Component {
     return (
       <div class="contactform_cont">
         <div className="contact_txt">Contact Me</div>
-        <form>
-          <input
+        <form><ul>
+          <li className="name mr10"><input
             autocomplete="off"
-            className="name mr10"
+            
             name="name"
             type="text"
             placeholder="Name"
           />
+          <span class="awsome_input_border"/></li>
+          <li className="email ml10">
           <input
             autocomplete="off"
-            className="email ml10"
+            
             name="email"
             type="text"
             placeholder="Email"
-          />
-          <br />
+          /> <span class="awsome_input_border"/>
+          </li>
+          <li   className="subject">
           <input
             autocomplete="off"
-            className="subject"
+          
             name="subject"
             type="text"
             placeholder="Subject"
-          />
-          <br />
-          <textarea name="message" className="message" placeholder="Message" />
-          <br />
-          <br />
+          /> <span class="awsome_input_border"/>
+          </li>
+          <li className="message">
+          <textarea name="message"  placeholder="Message" />
+          <span class="awsome_input_border"/>
+          </li>
+          </ul>
+         
           <input type="submit" class="btn_small" />
         </form>
       </div>

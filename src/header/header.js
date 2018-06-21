@@ -4,9 +4,9 @@ class Header extends Component {
     render() {
         return (
             <header>
-                {/* <div className="bold_txt">Perin</div>
-                <div className="lightbold_txt">WEB DESIGNER AND DEVELOPER</div> */}
-<br/><br/><br/><br/><br/><br/>
+                {/* <div className="bold_txt">Varinder</div>
+                <div className="lightbold_txt">FREELANCE  DEVELOPER</div> */}
+
             </header>
         );
     }
